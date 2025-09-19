@@ -11,7 +11,7 @@ export default function ResultsTestimonials() {
     { name: "Jaskirat", college: "London School of Economics", logo: "/logos/lse.png", image: "/testimonial/img3.png" },
     { name: "Bhavya", college: "Columbia University", logo: "/logos/cu.png", image: "/testimonial/img4.png" },
     { name: "Suhani", college: "Imperial College", logo: "/logos/imperial.png", image: "/testimonial/img5.png" },
-    { name: "Loshinee", college: "Imperial College", logo: "/logos/warwick.png", image: "/testimonial/img6.png" },
+    { name: "Loshinee", college: "University of Warwick", logo: "/logos/warwick.png", image: "/testimonial/img6.png" },
     // { name: "Loshinee", college: "Imperial College", logo: "/logos/durham_uni.png", image: "/testimonial/img6.png" },
     { name: "Safira", college: "Columbia University", logo: "/logos/cu.png", image: "/testimonial/img7.png" },
     { name: "Ishaani", college: "Darthmouth University", logo: "/logos/dartmouth.png", image: "/testimonial/img8.png" },
