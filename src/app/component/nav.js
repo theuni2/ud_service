@@ -125,8 +125,8 @@ export default function Nav({ logoSrc = "/logo.png", offset = 120 }) {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-4">
             <Link href="/" className="flex items-center gap-3">
-              {/* <img src={logoSrc} alt="Uni Discovery" className="h-10 w-auto" /> */}
-              <span className="hidden sm:inline-block font-semibold text-gray-800">Uni Discovery</span>
+              <img src='/logos/ud.png' alt="Uni Discovery" className="h-10 w-auto" />
+              {/* <span className="hidden sm:inline-block font-semibold text-gray-800">Uni Discovery</span> */}
             </Link>
           </div>
 

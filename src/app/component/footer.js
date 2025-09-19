@@ -45,18 +45,18 @@ export default function Footer() {
             <li className="flex items-center gap-2">
               <Mail className="h-4 w-4 text-indigo-400" />
               <a href="mailto:info@unidiscovery.com" className="hover:text-white transition">
-                info@unidiscovery.com
+                info@theunidiscovery.com
               </a>
             </li>
             <li className="flex items-center gap-2">
               <Phone className="h-4 w-4 text-indigo-400" />
               <a href="tel:+911234567890" className="hover:text-white transition">
-                +91 123 456 7890
+                +91 8146768347
               </a>
             </li>
             <li className="flex items-center gap-2">
               <MapPin className="h-4 w-4 text-indigo-400" />
-              <span>Bangalore, India</span>
+              <span>Delhi, India</span>
             </li>
           </ul>
         </div>

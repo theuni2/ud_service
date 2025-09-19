@@ -62,7 +62,7 @@ export default function ResultsTestimonials() {
             <img
               src={admit.image}
               alt={admit.name}
-              className="h-40 w-20 rounded-xl object-cover border-2 border-white shadow mb-4"
+              className="h-40 w-30 rounded-xl object-cover border-2 border-white shadow mb-4"
             />
             <h3 className="text-lg font-semibold text-gray-900">{admit.name}</h3>
             <div className="flex items-center gap-2 mt-3">
