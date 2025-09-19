@@ -10,6 +10,11 @@ export default function ResultsTestimonials() {
     { name: "Hetvi", college: "New York Institute of Technology", logo: "/logos/nyi.png", image: "/testimonial/img2.png" },
     { name: "Jaskirat", college: "London School of Economics", logo: "/logos/lse.png", image: "/testimonial/img3.png" },
     { name: "Bhavya", college: "Columbia University", logo: "/logos/cu.png", image: "/testimonial/img4.png" },
+    { name: "Suhani", college: "Imperial College", logo: "/logos/imperial.png", image: "/testimonial/img5.png" },
+    { name: "Loshinee", college: "Imperial College", logo: "/logos/warwick.png", image: "/testimonial/img6.png" },
+    // { name: "Loshinee", college: "Imperial College", logo: "/logos/durham_uni.png", image: "/testimonial/img6.png" },
+    { name: "Safira", college: "Columbia University", logo: "/logos/cu.png", image: "/testimonial/img7.png" },
+    { name: "Ishaani", college: "Darthmouth University", logo: "/logos/dartmouth.png", image: "/testimonial/img8.png" },
     // { name: "Riti", college: "Cornell University", logo: "/logos/cornell.png", image: "/students/riti.jpg" },
     // { name: "Suhani", college: "Imperial College London", logo: "/logos/imperial.png", image: "/students/suhani.jpg" },
     // { name: "Loshinee", college: "University of Toronto", logo: "/logos/toronto.png", image: "/students/loshinee.jpg" },
@@ -57,7 +62,7 @@ export default function ResultsTestimonials() {
             <img
               src={admit.image}
               alt={admit.name}
-              className="h-20 w-20 rounded-full object-cover border-2 border-white shadow mb-4"
+              className="h-40 w-20 rounded-xl object-cover border-2 border-white shadow mb-4"
             />
             <h3 className="text-lg font-semibold text-gray-900">{admit.name}</h3>
             <div className="flex items-center gap-2 mt-3">
