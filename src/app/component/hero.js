@@ -11,18 +11,10 @@ export default function Hero() {
       className="relative flex items-center justify-center min-h-[85vh] w-full overflow-hidden bg-black"
     >
       {/* Background GIF */}
-      <video
-        className="absolute inset-0 w-full h-full object-cover opacity-60"
-        autoPlay
-        loop
-        muted
-        playsInline
-      >
-        <source src="https://i.giphy.com/Kg2xebqLBAX8IVCnle.webp" type="video/mp4" />
-      </video>
+     <img src="/hero.gif" alt="Background" className="absolute inset-0 w-full h-full object-cover opacity-30" />
 
       {/* Overlay Gradient for better text readability */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/80" />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/60" />
 
       {/* Content */}
       <div className="relative z-10 max-w-5xl mx-auto px-6 text-center text-white">
