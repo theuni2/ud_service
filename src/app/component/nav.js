@@ -196,7 +196,7 @@ export default function Nav({ logoSrc = "/logo.png", offset = 120 }) {
 
           <div className="px-3 py-3">
             <a
-              href="#contact"
+              href="https://www.theunidiscovery.com/contact"
               onClick={(e) => handleNavClick(e, "#contact")}
               className="w-full block text-center px-4 py-2 rounded-md bg-indigo-600 text-white font-medium"
             >

@@ -43,7 +43,7 @@ export default function Hero() {
           transition={{ delay: 0.6, duration: 0.7 }}
         >
           <Link
-            href="#contact"
+            href="https://www.theunidiscovery.com/contact"
             className="px-6 py-3 rounded-2xl bg-indigo-600 hover:bg-indigo-700 text-lg font-semibold shadow-lg transition"
           >
             Book Free Consultation

@@ -67,7 +67,7 @@ export default function Footer() {
           <p className="text-sm text-gray-400 mb-3">
             Subscribe to our newsletter for updates on programs and admissions.
           </p>
-          <form className="flex gap-2">
+          {/* <form className="flex gap-2">
             <input
               type="email"
               placeholder="Enter your email"
@@ -79,7 +79,7 @@ export default function Footer() {
             >
               Subscribe
             </button>
-          </form>
+          </form> */}
         </div>
       </div>
 

@@ -240,7 +240,7 @@ export default function PricingUSA() {
             </ul>
           </div>
           <a
-            href="#cta"
+            href="https://www.theunidiscovery.com/contact"
             className="mt-8 block w-full text-center bg-white text-indigo-700 font-semibold py-3 rounded-lg shadow hover:bg-gray-100 transition"
           >
             Book Free Consultation
