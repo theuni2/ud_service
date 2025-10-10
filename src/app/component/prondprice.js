@@ -84,7 +84,7 @@ export default function ProgramsAndPricing() {
               {program.description}
             </p>
             <div className="text-center mb-6">
-              <span className="text-2xl font-bold text-gray-900">{program.price}</span>
+              {/* <span className="text-2xl font-bold text-gray-900">{program.price}</span> */}
             </div>
             <div className="flex justify-center">
               <a

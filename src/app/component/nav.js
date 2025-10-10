@@ -18,9 +18,9 @@ export default function Nav({ logoSrc = "/logo.png", offset = 120 }) {
   const [active, setActive] = useState("home");
 
   const links = [
-    { id: "home", label: "Home", href: "#home" },
+    { id: "home", label: "Home", href: "/" },
     { id: "why", label: "Why Families Choose Us", href: "#why" },
-    { id: "programs", label: "Programs & Pricing", href: "#programs" },
+    { id: "programs", label: "Programs", href: "#programs" },
     // { id: "pricing", label: "Pricing", href: "#pricing" },
     { id: "timeline", label: "Timeline", href: "#timeline" },
     { id: "experts", label: "Experts", href: "#experts" },
@@ -196,7 +196,7 @@ export default function Nav({ logoSrc = "/logo.png", offset = 120 }) {
 
           <div className="px-3 py-3">
             <a
-              href="https://www.theunidiscovery.com/contact"
+              href="https://forms.gle/K7Q4BP3srgLWdt9E6"
               onClick={(e) => handleNavClick(e, "#contact")}
               className="w-full block text-center px-4 py-2 rounded-md bg-indigo-600 text-white font-medium"
             >
