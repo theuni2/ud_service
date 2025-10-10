@@ -85,8 +85,8 @@ export default function PricingMiddleGrades() {
           className="bg-gradient-to-br from-yellow-600 to-orange-600 text-white rounded-2xl shadow-xl p-6 sm:p-8 flex flex-col justify-between"
         >
           <div>
-            <h3 className="text-xl font-bold mb-3">Price (INR)</h3>
-            <p className="text-4xl sm:text-5xl font-extrabold">₹1,20,000 / grade</p>
+            {/* <h3 className="text-xl font-bold mb-3">Price (INR)</h3> */}
+            {/* <p className="text-4xl sm:text-5xl font-extrabold">₹1,20,000 / grade</p> */}
             <p className="text-xs sm:text-sm opacity-90 mt-2 mb-6">Covers 2 activities + mentorship for 1 year</p>
             <ul className="space-y-3 text-sm sm:text-base">
               <li><CheckCircle className="h-4 w-4 text-green-300 inline mr-2" />Projects last 12–15 weeks</li>
